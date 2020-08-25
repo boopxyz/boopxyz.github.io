@@ -70,6 +70,33 @@ img {
     width: 100%;
 }
 
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
 /* menu */
 
 nav {
@@ -376,6 +403,29 @@ nav a#toggle-btn {
     text-decoration: underline;
 }
 
+/* commission */
+
+#commission {
+    background: #282627;
+    padding: 8rem 0;
+}
+
+.commission-content {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+}
+
+
+.commission-container h2 {
+	text-align: center;
+}
+
+.commission-container h3 {
+	text-align: center;
+}
+
 /* footer */
 
 footer {
@@ -383,7 +433,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     padding: 1em 0;
-    background: #282627;
+    background: #343233;
 }
 
 footer span {
