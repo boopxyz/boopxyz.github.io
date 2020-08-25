@@ -224,14 +224,14 @@ nav a#toggle-btn {
     }
 }
 
-/* plugin */
+/* plugins */
 
-#plugin {
+#plugins {
     background: #282627;
     padding: 8em 0;
 }
 
-.plugin-content {
+.plugins-content {
     display: grid;
     grid-gap: 80px;
     grid-template-columns: repeat(2, 1fr);
@@ -239,7 +239,7 @@ nav a#toggle-btn {
 }
 
 @media screen and (max-width: 580px) {
-    .graphics-content {
+    .plugins-content {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(1, 1fr);
@@ -270,6 +270,42 @@ nav a#toggle-btn {
     }
 }
 
+/* about me */
+
+#about {
+    background: #282627;
+    padding: 8em 0;
+}
+
+.about-content {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.about-container h2 {
+	text-align: center;
+}
+
+/* contact me */
+
+#contact {
+    background: #343233;
+    padding: 8em 0;
+}
+
+.contact-content {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.contact-container h2 {
+	text-align: center;
+}
+
 /* websites */
 
 #websites {
@@ -293,14 +329,14 @@ nav a#toggle-btn {
     }
 }
 
-/* reviews */
+/* testimonials */
 
-#reviews {
+#testimonials {
     background: #343233;
     padding: 8rem 0;
 }
 
-.reviews-content {
+.testimonials-content {
     display: grid;
     grid-gap: 80px;
     grid-template-columns: repeat(1, 1fr);
@@ -308,7 +344,7 @@ nav a#toggle-btn {
 }
 
 @media screen and (max-width: 580px) {
-    .reviews-content {
+    .testimonials-content {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(1, 1fr);
@@ -316,22 +352,26 @@ nav a#toggle-btn {
     }
 }
 
-.reviews-content a:link {
+.testimonials-container h2 {
+	text-align: center;
+}
+
+.myReviews a:link {
     color: rgb(255, 187, 0);
     text-decoration: none;
 }
 
-.reviews-content a:visited {
+.myReviews a:visited {
     color: rgb(255, 187, 0);
     text-decoration: none;
 }
 
-.reviews-content a:hover {
+.myReviews a:hover {
     color: rgb(255, 187, 0);
     text-decoration: underline;
 }
 
-.reviews-content a:active {
+.myReviews a:active {
     color: rgb(255, 187, 0);
     text-decoration: underline;
 }
@@ -376,9 +416,9 @@ img {
     width: auto;
     padding: 10px;
     margin-top: -22px;
-    color: white;
+    color: #8D8273;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.5s ease;
     border-radius: 25%;
     user-select: none;
@@ -393,20 +433,21 @@ img {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
+		color: white;
     background-color: rgba(255, 209, 82, 0.75);
 }
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
+    color: #8D8273;
+    font-size: 20px;
     width: 100%;
     text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-    color: #f2f2f2;
+    color: #8D8273;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -470,10 +511,9 @@ img {
 
 /* reviews */
 
-.reviews-container h2 {
+.testimonials-container {
     position: relative;
     background: #343233;
-    text-align: center;
 }
 
 .myReviews {
