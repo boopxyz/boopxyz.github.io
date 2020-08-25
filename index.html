@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js">
+    </script>
+    <script src="https://kit.fontawesome.com/7fe097db56.js" crossorigin="anonymous">
+    </script>
+
+    <title>Boop's Portfolio</title>
+    <meta name="theme-color" content="#FFD152" />
+    <meta property="og:title" content="Boop's Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolio.boopxyz.repl.co/" />
+    <meta property="og:description"
+        content="See Boop's Portfolio!" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu">
+            <ul class="menu">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                 <li>
+                    <a href="#plugin">Plugins</a>
+                </li>
+                <li>
+                    <a href="#discord">Discord Bots</a>
+                </li>
+                <li>
+                    <a href="#websites">Websites</a>
+                </li>
+                <li>
+                    <a href="#reviews">Reviews</a>
+                </li>
+            </ul>
+            <a href="#" id="toggle-btn">Menu</a>
+        </nav>
+    </header>
+
+    <!-- home -->
+
+    <a name="home"></a>
+    <div class="section-hero">
+        <div class="container">
+            <h1>Boop's Portfolio</h1>
+            <h2><i class="fab fa-discord"></i> <a href="https://discord.com/" target="_blank">boop_xyz#7300</a> | <i
+                    class="fab fa-github"></i> <a href="https://github.com/aakhilv" target="_blank">GitHub</a></h2>
+            <p>Boop. Web Designer, Discord Bot Maker, Plugin Maker.</p>
+        </div>
+    </div>
+
+    <!-- graphics -->
+
+    <a name="plugin"></a>
+    <div id="plugin" class="section">
+        <div class="container">
+            <div class="plugin-content">
+                <div>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="https://i.imgur.com/HIAs8jf.png" style="width:100%">
+                            <div class="text">Victim</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="https://i.imgur.com/CSZpxnR.png" style="width:100%">
+                            <div class="text">aakhilv</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="https://i.imgur.com/73YOyXU.png" style="width:100%">
+                            <div class="text">Incognito Murder</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="https://i.imgur.com/WRhWA1p.png" style="width:100%">
+                            <div class="text">Lab</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="https://i.imgur.com/X69qmDA.png" style="width:100%">
+                            <div class="text">Home Tycoon</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="https://i.imgur.com/YQWbcCF.png" style="width:100%">
+                            <div class="text">Starblox</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
+                        <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                    </div>
+                </div>
+
+                <div>
+                    <h2><i class="fas fa-plug"></i> Plugins</h2>
+                    <h4><i class="fas fa-angle-double-right"></i> Describe the theme, colors, text, icons/images of the
+                        logo.</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> It will cost 100 - 250 robux ($1 - $2.50) based on the
+                        difficulty.</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> I accept Roblox group funds (recommended), purchase of
+                        a gamepass (you must pay for tax), or gift cards (iOS App Store or Roblox).</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> Once I have received the required payment, I will
+                        remove the watermark.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- discord -->
+
+    <a name="discord"></a>
+    <div id="discord" class="section">
+        <div class="container">
+            <div class="discord-content">
+                <div>
+
+                </div>
+                <div>
+                    <h2><i class="fas fa-robot"></i> Discord Bots</h2>
+                    <h4><i class="fas fa-angle-double-right"></i> Describe the commands/features for the bot. Commands
+                        and features will be considered the same.</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> It will cost 450 robux ($4.50) per bot with 10
+                        commands. Additional commands will cost 50 ($0.50) robux each.</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> I accept Roblox group funds (recommended), purchase of
+                        a gamepass (you must pay for tax), or gift cards (iOS App Store or Roblox).</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> If payment isn't received within one week, the bot
+                        will be deleted.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- websites -->
+
+    <a name="websites"></a>
+    <div id="websites" class="section">
+        <div class="container">
+            <div class="websites-content">
+                <div>
+
+                </div>
+                <div>
+                    <h2><i class="fas fa-laptop-code"></i> Websites</h2>
+                    <h4><i class="fas fa-angle-double-right"></i> Describe the layout and pages for the website. It will
+                        be easier if you provide a theme with fonts and a color palette.</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> It will cost 500 - 1500 robux ($5 - $15) based on the
+                        complexity.</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> I accept Roblox group funds (recommended), purchase of
+                        a gamepass (you must pay for tax), or gift cards (iOS App Store or Roblox).</h4>
+                    <h4><i class="fas fa-angle-double-right"></i> If payment isn't received within one week, the website
+                        will be disabled.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- reviews -->
+
+    <a name="reviews"></a>
+    <div id="reviews" class="section">
+        <div class="container">
+            <div class="reviews-content">
+                <div class="reviews-container">
+									<h2><i class="fas fa-comments"></i> Reviews</h2>
+                    <div class="myReviews fade" aria-hidden="true">
+                        <q>Definitely recommend! He makes amazing GFX for amazing prices!</q>
+                        <p class="author"><a href="https://www.roblox.com/users/1509518753/profile" target="_blank">~ Pyxrien</a></p>
+                    </div>
+                    <div class="myReviews fade">
+                        <q>I definately recommend this guy, he does GFX quickly and still at amazing quality, and for
+                            good prices!</q>
+                        <p class="author"><a href="https://www.roblox.com/users/114001587/profile" target="_blank">~ CreatedShots</a></p>
+                    </div>
+                    <div class="myReviews fade">
+                        <q>Anyway, keep up the great work! your GFXs are really nice 🙌</q>
+                        <p class="author"><a href="https://www.roblox.com/users/200793555/profile" target="_blank">~ avxocado</a></p>
+                    </div>
+                    <div class="myReviews fade">
+                        <q>Your 2D art is nice. It grabs my attention a lot. Keep up the good work!</q>
+                        <p class="author"><ahref="https://www.roblox.com/users/105067401/profile" target="_blank">~ Dxiien</a></p>
+                    </div>
+                    <a class="rprev" onclick="plusReviews(-1)"><i class="fas fa-chevron-left"></i></a>
+                    <a class="rnext" onclick="plusReviews(1)"><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <span><i class="far fa-copyright"></i> 2020 Boop</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
